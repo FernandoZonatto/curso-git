@@ -43,6 +43,7 @@ namespace calculo_imc
             txtPeso.Text = "";
             txtIMC.Text = "";
             txtResultado.Text = "";
+            MessageBox.Show("Tudo limpo!");
         }
 
         private void btnSair_Click(object sender, EventArgs e)
